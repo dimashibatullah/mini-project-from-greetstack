@@ -74,6 +74,37 @@ body {
     text-shadow: 0px 0px 4px #000000;
 }
 
+.detail {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.detail .humidity {
+    text-align: center;
+}
+.detail .humidity h5 {
+    margin-top: 5px;
+}
+
+.detail .humidity-detail {
+    display: flex;
+    align-items: center;
+}
+.detail .wind-speed {
+    text-align: center;
+}
+
+.detail .wind-speed h5 {
+    margin-top: 5px;
+}
+.detail .wind-speed-detail {
+    display: flex;
+    align-items: center;
+
+}
+
 
 
 
