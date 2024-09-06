@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #00203a;
+  color: white;
+  padding: 100px;
+  font-size: 30px;
+}
+
+#title {
+  color: #008d51;
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+.pass {
+  position: relative;
+  margin: 20px 0;
+  width: 500px;
+}
+
+.pass input {
+  padding: 15px;
+  width: 500px;
+  font-size: 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.pass button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: white;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.pass button:hover {
+  background-color: rgb(170, 197, 171);
+}
+
+#afterCopy {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  font-size: 20px;
+  color: #008d51;
+  display: none;
+  
+}
+
+.generate-btn {
+  background-color: #008c55;
+  color: white;
+  margin: 10px 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 200px;
+  display: flex;
+  cursor: pointer;
+}
+
+.generate-btn:hover {
+  background-color: #0c6f48;
+}
+
+.generate-btn p {
+  font-size: 15px;
+  font-weight: 700;
+}
